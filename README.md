@@ -1,8 +1,8 @@
 # Mental health forums | A language analysis 
 
-#### GA | DSI Capstone Project | 2020 | Ella Franks 
+#### GA | DSI Capstone Project 
 
-In our current climate, online solutions to those seeking advice are not good enough.
+In our current climate, online solutions to mental illness are not good enough.
  
 The SuicideWatch Reddit forum has over 190k members with only 10 human moderators that monitor and remove abusive posts. This is tedious and timely. 
 
