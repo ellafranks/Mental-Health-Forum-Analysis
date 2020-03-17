@@ -119,6 +119,7 @@ When looking through coefficients associated with higher scores, softer, more pe
 ## Future directions:
  
 * Explore T-SNE; a popular method for visualising high dimensional data.
+* Explore Word2Vec; a pre trained corpus containing over 100 billion words.
 * Perform a Gradboost on language model and optimise the accuracy score further. 
 * Determine unique patterns in other forums, allowing strategies to become more specific 
  
