@@ -53,7 +53,7 @@ Random down sampling method chosen due to its computational speed and ease in im
 * Ran a number of classification models on all 39 engineered features; KNN, Logistic regression, Random forest, Bagging, AdaBoost and GradBoost. 
 
 #### Model language features
-* After running a grid search and PCA, the TfidfV model was utilised, where rare words were weighted most highly, creating a corpus of 5000 features and n grams with a range of 1 to 3. Stop words were removed and words were stemmed and lemmatised. 
+* In order to find the optimal number of features and model, I ran a grid search and PCA; TfidfV was utilised, where rare words were weighted most highly, creating a corpus of 5000 features and n grams with a range of 1 to 3. Stop words were removed and words were stemmed and lemmatised. 
 * Transforming the vector to a sparse matrix to speed up computational efficiency,  I ran a number of classification models. 
 * Ran LDA using TfidfV model which used unsupervised learning to return salient topic and word clusters for the whole corpus. However, topics were found to be very similar in both low and high scoring comments. I found similar issues when running sentiment analysis. 
  
@@ -112,9 +112,9 @@ According to the confusion matrix, classification report and ROC curves, the mod
 - Lacks generalizability to other forums 
  
  
-When looking through the comments containing the coefficients associated with low scores, I often found patterns of downvoting where people offered ‘preachy’ advice and blanket solutions.
+* When looking through the comments containing the coefficients associated with low scores, I often found patterns of downvoting where people offered ‘preachy’ advice and blanket solutions.
  
-When looking through coefficients associated with higher scores, softer, more personal language was perceived as empathetic and less rigid. 
+* When looking through coefficients associated with higher scores, softer, more personal language was perceived as empathetic and less rigid. 
  
 ## Future directions:
  
