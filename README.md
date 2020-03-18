@@ -75,7 +75,7 @@ Grid search: Logistic regression
 * Achieved an optimal accuracy score of **55.3%** (30% above baseline)
 * Average K fold cross validated testing score **50.01%**
 
-According to the confusion matrix, classification report and ROC curves, the model performs the best in classifying the lowest and highest scoring comments; accuracy and F1 scores are highest. Given the nature of this sensitive forum, increasing the detection and classification of potentially harmful comments is desirable, thus increasing false negatives and tuning towards a higher recall at the expense of precision.
+According to the confusion matrix, classification report and ROC curves, the model performs the best in classifying the lowest and highest scoring comments. Given the nature of this sensitive forum, increasing the detection and classification of potentially harmful comments is desirable, thus increasing false negatives and tuning towards a higher recall at the expense of precision is necessery.
 
 #### Terms that decrease comment score
 
