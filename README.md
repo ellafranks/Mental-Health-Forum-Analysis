@@ -2,7 +2,7 @@
 
 #### GA | DSI Capstone Project 
 
-In our current climate, online solutions to mental illness are not good enough.
+In our current climate, a focus on online solutions to mental illness is critical.
  
 The SuicideWatch Reddit forum has over 190k members with only 10 human moderators that monitor and remove abusive posts. This is tedious and timely. 
 
