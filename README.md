@@ -10,7 +10,8 @@ Exposure of Reddit comments to the online community are based on their â€˜scoreâ
 
 If one is able to identify important features in high and low scoring comments in mental health threads, this could help improve the handling and moderation of suicidal intentions on social media platforms.  
 
-#### For visualisation purposes https://public.tableau.com/profile/ella.franks#!/vizhome/MentalHealthForumLanguageAnalysisWordCloud/Dashboard2
+#### For visualisation purposes:
+https://public.tableau.com/profile/ella.franks#!/vizhome/MentalHealthForumLanguageAnalysisWordCloud/Dashboard2
 
 ## Problem statement:
  
