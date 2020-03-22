@@ -10,7 +10,7 @@ Exposure of Reddit comments to the online community are based on their ‘score�
 
 If one is able to identify important features in high and low scoring comments in mental health threads, this could help improve the handling and moderation of suicidal intentions on social media platforms.  
 
-For visualisation please see https://public.tableau.com/authoring/MentalHealthForumLanguageAnalysis/Dashboard1#1
+#### For visualisation purposes https://public.tableau.com/profile/ella.franks#!/vizhome/MentalHealthForumLanguageAnalysisWordCloud/Dashboard2
 
 ## Problem statement:
  
@@ -69,7 +69,7 @@ Grid search: GradBoost
 * Achieved the optimal accuracy score of **49.7%**
  
 The length of post time; the popularity of thread; the position of comment and its length, are just some of the important coefficients that contribute  towards driving up the comment score.   
-However, these aren’t useful features for immediate detection of harmful or helpful comments being made.. 
+However, these aren’t useful features for immediate detection of harmful or helpful comments being made.
  
 #### Language results
  
@@ -122,8 +122,8 @@ According to the confusion matrix, classification report and ROC curves, the mod
  
 * Explore T-SNE; a popular method for visualising high dimensional data.
 * Explore Word2Vec; a pre trained corpus containing over 100 billion words.
-* Perform a Gradboost on language model and optimise the accuracy score further. 
-* Determine unique patterns in other forums, allowing strategies to become more specific 
+* Perform a Gradboost and optimise the accuracy score further. 
+* Determine unique patterns in other forums, allowing strategies to become more specific. 
  
 ## Conclusion:
  
