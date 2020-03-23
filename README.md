@@ -53,7 +53,7 @@ Random down sampling method chosen due to its computational speed and ease in im
 **Baseline** 0.25 
  
 #### Model non-language features
-* Ran a number of classification models on all 39 engineered features; KNN, Logistic regression, Random forest, Bagging, AdaBoost and GradBoost. 
+* Ran a number of classification models on all 39 engineered features; KNN, Logistic regression, Random forest, Bagging, SVM, AdaBoost and GradBoost. 
 
 #### Model language features
 * In order to find the optimal number of features and model, I ran a grid search and PCA; TfidfV was utilised, where rare words were weighted most highly, creating a corpus of 5000 features and n grams with a range of 1 to 3. Stop words were removed and words were stemmed and lemmatised. 
