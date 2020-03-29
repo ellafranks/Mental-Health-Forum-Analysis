@@ -10,7 +10,7 @@ Exposure of Reddit comments to the online community are based on their ‘score�
 
 If one is able to identify important features in high and low scoring comments in mental health threads, this could help improve the handling and moderation of suicidal intentions on social media platforms.  
 
-#### For visualisation purposes:
+#### Explore the results here:
 https://public.tableau.com/profile/ella.franks#!/vizhome/MentalHealthForumLanguageAnalysisWordCloud/Dashboard2
 
 ## Problem statement:
@@ -102,6 +102,10 @@ According to the confusion matrix, classification report and ROC curves, the mod
 * **'service', 'laws'**
 *Factual and possibly clinical*
 
+* When looking through the comments containing the coefficients associated with low scores, I often found patterns of downvoting where people offered ‘preachy’ advice and blanket solutions.
+ 
+* When looking through coefficients associated with higher scores, softer, more personal language was perceived as empathetic and less rigid. 
+
 ## Analysis 
 
 ***These findings were consistent with research done in a 2019 survey!***
@@ -113,11 +117,6 @@ According to the confusion matrix, classification report and ROC curves, the mod
 - Huge variety of people are ranking the comments
 - Comments have already been moderated. (When analysing removed comments, their replies were mostly removed and deleted as well).
 - Lacks generalizability to other forums 
- 
- 
-* When looking through the comments containing the coefficients associated with low scores, I often found patterns of downvoting where people offered ‘preachy’ advice and blanket solutions.
- 
-* When looking through coefficients associated with higher scores, softer, more personal language was perceived as empathetic and less rigid. 
  
 ## Future directions:
  
