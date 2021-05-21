@@ -26,6 +26,11 @@ Can we identify language based features that predict low or high scores on Reddi
 5.    Model language features and analyse their importance 
 6.    Explore the context of the language coefficients and whether they align with external research 
 
+
+## Further work
+
+- BERT SentenceTransformer embeddings with SVM classifier 
+
 ## Data collection: 
  
 #### Reddit API 
@@ -56,7 +61,7 @@ Random down sampling method chosen due to its computational speed and ease in im
 * Ran a number of classification models on all 39 engineered features; KNN, Logistic regression, Random forest, Bagging, SVM, AdaBoost and GradBoost. 
 
 #### Model language features
-* In order to find the optimal number of features and model, I ran a grid search and PCA; TfidfV was utilised, where rare words were weighted most highly, creating a corpus of 5000 features and n grams with a range of 1 to 3. Stop words were removed and words were stemmed and lemmatised. 
+* In order to find the optimal number of features and model, I ran a grid search and PCA; Tfidf was utilised, where rare words were weighted most highly, creating a corpus of 5000 features and n grams with a range of 1 to 3. Stop words were removed and words were stemmed and lemmatised. 
 * Transforming the vector to a sparse matrix to speed up computational efficiency,  I ran a number of classification models. 
 * Ran LDA using TfidfV model which used unsupervised learning to return salient topic and word clusters for the whole corpus. However, topics were found to be very similar in both low and high scoring comments. I found similar issues when running sentiment analysis. 
  
@@ -116,14 +121,8 @@ According to the confusion matrix, classification report and ROC curves, the mod
 - Varies for what people find helpful, making it very difficult to predict.
 - Huge variety of people are ranking the comments
 - Comments have already been moderated. (When analysing removed comments, their replies were mostly removed and deleted as well).
-- Lacks generalizability to other forums 
- 
-## Future directions:
- 
-* Explore T-SNE; a popular method for visualising high dimensional data.
-* Explore Word2Vec; a pre trained corpus containing over 100 billion words.
-* Perform a Gradboost and optimise the accuracy score further. 
-* Determine unique patterns in other forums, allowing strategies to become more specific. 
+- Lacks generalisability to other forums 
+
  
 ## Conclusion:
  
